@@ -1,58 +1,68 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+  <div>
+    <Navbar @active="Active" />
+    <div v-if="this.active >= 1 && this.active <= 5">
+      <h1>Section 1</h1>
+      <Table class="style" :data="section1" />
+      <h1>Section 2</h1>
+      <Table class="style" :data="section2" />
+      <h1>Elective 1</h1>
+      <elective-table :data="electiveData1" class="style"/>
+        <h1>Elective 2</h1>
+        <elective-table :data="electiveData2"  class="style"/>
+    </div>
+    <gdrive-table class="style" v-else-if="this.active == 8" />
+    <Welcome v-else />
   </div>
 </template>
 
 <script>
+import GdriveTable from "./GdriveTable.vue";
+import Welcome from "./Welcome.vue";
+import Navbar from "./Navbar.vue";
+import Table from "./TimeTable.vue";
+import { getData } from "./../data/data";
+import ElectiveTable from './PETable.vue';
+import { getData1, getData2 } from './../data/PEdata'
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
-}
+  components: { Navbar, Table, Welcome, GdriveTable, ElectiveTable },
+  name: "HelloWorld",
+  data: function () {
+    return {
+      active: null,
+      section1: [],
+      section2: [],
+      setActive: false,
+      electiveData1: getData1(),
+      electiveData2: getData2(),
+    };
+  },
+  methods: {
+    Active(value) {
+      this.active = value;
+      this.setActive = true;
+    },
+  },
+  watch: {
+    active() {
+      if (this.active != null) {
+        this.section1 = getData().section1[this.active - 1];
+        this.section2 = getData().section2[this.active - 1];
+      }
+    },
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
+<style>
+.style {
+  margin: 10%;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+body {
+  background-image: url("./../assets/Codegena.png");
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+h1 {
+  color: white;
 }
 </style>
