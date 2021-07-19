@@ -4,13 +4,13 @@ const LinkData = {
                 "time": "8:00AM-9:00AM",
                 "Course_Code": "CS303",
                 "variation": false,
-                "Link": "https://himanshusanecha.me"
+                "Link": "https://meet.google.com/jrs-fbac-kvg"
             },
             {
                 "time": "10:15AM-11:15AM",
                 "Course_Code": "CS301",
                 "variation": false,
-                "Link": "https://himanshusanecha.me"
+                "Link": "https://meet.google.com/oja-wtij-pcx"
             },
             {
                 "time": "11:15AM-12:15PM",
@@ -42,7 +42,7 @@ const LinkData = {
                 "time": "10:15AM-11:15AM",
                 "Course_Code": "CS303",
                 "variation": false,
-                "Link": "https://himanshusanecha.me"
+                "Link": "https://meet.google.com/jrs-fbac-kvg"
             },
             {
                 "time": "1:15PM-4:15PM",
@@ -61,7 +61,7 @@ const LinkData = {
                 "time": "8:00AM-9:00AM",
                 "Course_Code": "CS301",
                 "variation": false,
-                "Link": "https://himanshusanecha.me"
+                "Link": "https://meet.google.com/oja-wtij-pcx"
             },
             {
                 "time": "9:00AM-10:00AM",
@@ -93,7 +93,7 @@ const LinkData = {
                 "time": "8:00AM-9:00AM",
                 "Course_Code": "CS303",
                 "variation": false,
-                "Link": "https://himanshusanecha.me"
+                "Link": "https://meet.google.com/jrs-fbac-kvg"
             },
             {
                 "time": "10:15AM-11:15AM",
@@ -126,7 +126,7 @@ const LinkData = {
                 "time": "10:15AM-11:15AM",
                 "Course_Code": "CS301",
                 "variation": false,
-                "Link": "https://himanshusanecha.me"
+                "Link": "https://meet.google.com/oja-wtij-pcx"
             },
             {
                 "time": "2:15PM-4:15PM",
@@ -147,14 +147,14 @@ const LinkData = {
                 "time": "8:00AM-9:00AM",
                 "Course_Code": "CS301",
                 "variation": false,
-                "Link": "https://himanshusanecha.me"
+                "Link": "https://meet.google.com/oja-wtij-pcx"
             },
 
             {
                 "time": "10:15AM-11:15AM",
                 "Course_Code": "CS303",
                 "variation": false,
-                "Link": "https://himanshusanecha.me"
+                "Link": "https://meet.google.com/jrs-fbac-kvg"
             },
             {
                 "time": "11:15AM-12:15PM",
@@ -186,7 +186,7 @@ const LinkData = {
                 "time": "10:15AM-11:15AM",
                 "Course_Code": "CS301",
                 "variation": false,
-                "Link": "https://himanshusanecha.me"
+                "Link": "https://meet.google.com/oja-wtij-pcx"
             },
             {
                 "time": "1:15PM-4:15PM",
@@ -205,7 +205,7 @@ const LinkData = {
                 "time": "8:00AM-9:00AM",
                 "Course_Code": "CS303",
                 "variation": false,
-                "Link": "https://himanshusanecha.me"
+                "Link": "https://meet.google.com/jrs-fbac-kvg"
             },
             {
                 "time": "9:00AM-10:00AM",
@@ -237,7 +237,7 @@ const LinkData = {
                 "time": "8:00AM-9:00AM",
                 "Course_Code": "CS301",
                 "variation": false,
-                "Link": "https://himanshusanecha.me"
+                "Link": "https://meet.google.com/oja-wtij-pcx"
             },
 
             {
@@ -272,7 +272,7 @@ const LinkData = {
                 "time": "10:15AM-11:15AM",
                 "Course_Code": "CS303",
                 "variation": false,
-                "Link": "https://himanshusanecha.me"
+                "Link": "https://meet.google.com/jrs-fbac-kvg"
             },
             {
                 "time": "2:15PM-4:15PM",
