@@ -16,8 +16,8 @@ const LinkData = {
                 "time": "11:15AM-12:15PM",
                 "Course_Code": "CS305/IT301",
                 "variation": true,
-                "Link1": "https://himanshusanecha.me",
-                "Link2": "https://himanshusanecha.me"
+                "Link1": "https://meet.google.com/ftn-soqv-fvc",
+                "Link2": "https://meet.google.com/nrr-qwzw-irv"
             },
             {
                 "time": "1:15PM-4:15PM",
@@ -73,8 +73,8 @@ const LinkData = {
                 "time": "10:15AM-11:15AM",
                 "Course_Code": "CS305/IT301",
                 "variation": true,
-                "Link1": "https://himanshusanecha.me",
-                "Link2": "https://himanshusanecha.me"
+                "Link1": "https://meet.google.com/ftn-soqv-fvc",
+                "Link2": "https://meet.google.com/nrr-qwzw-irv"
             },
             {
                 "time": "11:15AM-12:15PM",
@@ -113,8 +113,8 @@ const LinkData = {
                 "time": "8:00AM-9:00AM",
                 "Course_Code": "CS305/IT301",
                 "variation": true,
-                "Link1": "https://himanshusanecha.me",
-                "Link2": "https://himanshusanecha.me"
+                "Link1": "https://meet.google.com/ftn-soqv-fvc",
+                "Link2": "https://meet.google.com/nrr-qwzw-irv"
             },
             {
                 "time": "9:00AM-10:00AM",
@@ -160,8 +160,8 @@ const LinkData = {
                 "time": "11:15AM-12:15PM",
                 "Course_Code": "CS305/IT301",
                 "variation": true,
-                "Link1": "https://himanshusanecha.me",
-                "Link2": "https://himanshusanecha.me"
+                "Link1": "https://meet.google.com/ftn-soqv-fvc",
+                "Link2": "https://meet.google.com/nrr-qwzw-irv"
             },
             {
                 "time": "1:15PM-4:15PM",
@@ -217,8 +217,8 @@ const LinkData = {
                 "time": "10:15AM-11:15AM",
                 "Course_Code": "CS305/IT301",
                 "variation": true,
-                "Link1": "https://himanshusanecha.me",
-                "Link2": "https://himanshusanecha.me"
+                "Link1": "https://meet.google.com/ftn-soqv-fvc",
+                "Link2": "https://meet.google.com/nrr-qwzw-irv"
             },
             {
                 "time": "11:15AM-12:15PM",
@@ -259,8 +259,8 @@ const LinkData = {
                 "time": "8:00AM-9:00AM",
                 "Course_Code": "CS305/IT301",
                 "variation": true,
-                "Link1": "https://himanshusanecha.me",
-                "Link2": "https://himanshusanecha.me"
+                "Link1": "https://meet.google.com/ftn-soqv-fvc",
+                "Link2": "https://meet.google.com/nrr-qwzw-irv"
             },
             {
                 "time": "9:00AM-10:00AM",
