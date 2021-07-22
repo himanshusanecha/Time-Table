@@ -52,7 +52,7 @@ const LinkData = {
             },
             {
                 "time": "4:30PM-5:30PM",
-                "Course_Code": "PE1 - Lab",
+                "Course_Code": "PE1 - CS/IT 429",
                 "variation": false,
                 "Link": null
             }
@@ -84,7 +84,7 @@ const LinkData = {
             },
             {
                 "time": "4:30PM-5:30PM",
-                "Course_Code": "PE1 - Lab",
+                "Course_Code": "PE1 - CS/IT 429",
                 "variation": false,
                 "Link": null
             }
@@ -196,7 +196,7 @@ const LinkData = {
             },
             {
                 "time": "4:30PM-5:30PM",
-                "Course_Code": "PE1 - Lab",
+                "Course_Code": "PE1 - CS/IT 429",
                 "variation": false,
                 "Link": null
             }
@@ -228,7 +228,7 @@ const LinkData = {
             },
             {
                 "time": "4:30PM-5:30PM",
-                "Course_Code": "PE1 - Lab",
+                "Course_Code": "PE1 - CS/IT 429",
                 "variation": false,
                 "Link": null
             }
@@ -282,7 +282,7 @@ const LinkData = {
             },
             {
                 "time": "4:30PM-5:30PM",
-                "Course_Code": "PE1 - Lab",
+                "Course_Code": "PE1 - CS/IT 429",
                 "variation": false,
                 "Link": null
             },
